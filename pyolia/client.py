@@ -89,7 +89,10 @@ class VeoliaClient:
         given month.
         The consumption is not available for the last 3 days.
         """
-        if year < 2031:
+
+        raise ValueError("Update works")
+        
+        if year < 2001:
             raise ValueError("year must be greater than 2000")
 
         if date(year, month, day if day else 1) > datetime.now().date():
