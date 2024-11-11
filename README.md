@@ -17,7 +17,7 @@ To retrieve the hourly water consumption, you have to update your preferences on
 ## Installation
 
 ```bash
-pip install pyolia
+pip install pyolialyon
 ```
 
 ## Getting started
@@ -26,7 +26,7 @@ pip install pyolia
 import asyncio
 from datetime import datetime, timedelta
 
-from pyolia.client import VeoliaClient
+from pyolialyon.client import VeoliaClient
 
 
 USERNAME = "your username"

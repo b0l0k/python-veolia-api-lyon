@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pyolia"
+name = "pyolialyon"
 version = "0.4.0"
 description = "Async Python wrapper to interact with internal Veolia API"
 authors = ["Thibaut Etienne"]
@@ -8,7 +8,7 @@ readme = "README.md"
 homepage = "https://github.com/tetienne/python-veolia-api/"
 repository = "https://github.com/tetienne/python-veolia-api/"
 packages = [
-    { include = "pyolia" }
+    { include = "pyolialyon" }
 ]
 
 [tool.poetry.dependencies]
